@@ -25,7 +25,15 @@ container2.append(para);
 // add container2 to main container
 container.appendChild(container2);
 
+// button click
+// const btn = document.querySelector('#btn');
+// btn.onclick = () => alert('Hello World');
 
+// button click 2
+const btn = document.querySelector('#btn');
+btn.addEventListener("click", () => {
+    alert('Hello World');
+});
 
 
 
